@@ -9,4 +9,5 @@ test "Свойства товара не должны оставаться пу�
   	assert product.errors[:descriptions].any?
   	assert product.errors[:image_url].any?
   	assert product.errors[:price].any?
+  end
 end
